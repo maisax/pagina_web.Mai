@@ -1,7 +1,7 @@
 :root {
     --text-color: #DBE4EF;
     --card-front-color: #144480;
-    --card-back-color: #00F4BF;
+    --card-back-color: #da93d4;
 }
 
 body {
@@ -23,13 +23,14 @@ body {
     flex-grow: 1;
     flex-basis: calc(33% - 6rem);
 }
-
+ 
 .cartao__conteudo {
     background-color: var(--card-front-color);
     text-align: center;
     height: 100%;
     transform-style:preserve-3d  ;
     transition: transform 300ms;
+    border-radius:  10px; 
 }
 
 .cartao__conteudo h3 {
@@ -71,6 +72,7 @@ body {
     height: 100%;
     width: 100%;
     box-sizing: border-box;
+    border-radius: 10px;
 }
 .cartao__conteudo__resposta {
     transform: rotateY(180deg); 
